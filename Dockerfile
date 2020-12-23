@@ -1,3 +1,4 @@
+ARG ARCH=
 FROM jboss/wildfly:latest
 
 ADD https://downloads.mariadb.com/Connectors/java/connector-java-1.5.9/mariadb-java-client-1.5.9.jar /opt/jboss/wildfly/modules/system/layers/base/org/mariadb/jdbc/main/
